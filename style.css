@@ -1,0 +1,140 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* header section */
+#header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 14px -7px black;
+    border-bottom-right-radius: 2rem;
+    
+}
+
+#primaryHeading{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+/* gallery section */
+#mainSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.Image{
+    width: 30rem;
+    height: 20rem;
+    margin: 1.8rem 0 1.8rem 0;
+    border-radius: 1.5rem;
+    box-shadow: inset 0px -75px 65px -6px black;
+}
+
+.secrondaryHeading{
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+#image-1{
+    display: flex;
+    align-items: flex-end;
+    background: url("/agra-fort-ge52d0d4aa_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-2{
+    display: flex;
+    align-items: flex-end;
+    background: url("/ajanta-g0c0202e23_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-3{
+    display: flex;
+    align-items: flex-end;
+    background: url("/csmt-ga6f51b3a0_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-4{
+    display: flex;
+    align-items: flex-end;
+    background: url("/gate-way-of-india-g9f106c964_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-5{
+    display: flex;
+    align-items: flex-end;
+    background: url("/india-gb2b5f6668_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-6{
+    display: flex;
+    align-items: flex-end;
+    background: url("/palace-g106cc2d78_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-7{
+    display: flex;
+    align-items: flex-end;
+    background: url("/taj-mahal-gcf837f5d8_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-8{
+    display: flex;
+    align-items: flex-end;
+    background: url("/travel-g60e6fa91d_1920.jpg") no-repeat center center/cover;
+    
+}
+#image-9{
+    display: flex;
+    align-items: flex-end;
+    background: url("/hampi-gb29cd744b_1920.jpg") no-repeat center center/cover;
+    
+}
+
+#audioClip{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* footer section */
+
+#footerSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2b2b2b;
+}
+
+.footerContent{
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+}
+
+/* hover effects */
+
+.Image:hover{
+     box-shadow: 10px 10px 14px -7px black;
+}
